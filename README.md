@@ -3,9 +3,9 @@
 
 ## Example
 
-Compare the following output in the paragraph below to its source document (Yu_RecentAdvances_2011.pdf).
+Compare the following output in the example below to its source document [Yu_RecentAdvances_2011.pdf](Yu_RecentAdvances_2011.pdf).
 
-An embedded system is typically a micro-computer system with one or few dedicated functions,
+An embedded system is typically a micro-computer system with one or few dedicated functions, 
 usually with real-time computation constraints. Generally, designers have the choice of two main
 families of digital device technologies. The first family consists of microcontrollers and DSPs,
 based on a pure software platform. Considering the increase of complexity of embedded electronic
@@ -13,6 +13,7 @@ architecture, the development of it has to integrate different hardware and soft
 by different vendors, which raises the question of “composability”. And the issue of functional de-
 sign to the implementation perspective and back to integration and acceptance testing on vehicle
 level.
+
 Automobile manufacturers, suppliers, and tool developers jointly develop an open and standardized
 automotive software architecture–AUTOSAR (AUTomotive Open System ARchitecture), with the
 objective of creating and establishing open standards for automotive E/E (Electrics/Electronics)
@@ -22,6 +23,7 @@ of basic systems functions, scalability to different vehicle and platform varian
 throughout the network, integration from multiple suppliers, maintainability throughout the en-
 tire product life-cycle, and software updates and upgrades over the vehicle’s lifetime as some of
 the key goals.
+
 Designers need to define, evaluate, and choose car electronic architectures years in advance, but
 at that time the functions they will support are not completely known. Many automotive ap-
 plications, including most of those developed for active safety and chassis systems, must comply
@@ -30,6 +32,7 @@ putations from sensors to actuators. Worst case analysis based on schedulability
 computing the contribution of tasks and messages to end-to-end latencies and provides the archi-
 tecture designer with a set of values (one for each end-to-end path) on which he/she can check
 correctness of an architecture solution.
+
 What’s more, several new attracting features such as higher levels of parallelism are brought to the
 designers by multicore ECUs, which ease the respect of the safety requirements such as the ISO
 26262 and the implementation of other automotive use-cases. With multiple CPUs, an ECU is
@@ -38,7 +41,8 @@ dependencies among those CPUs due to the use of shared resources even in partiti
 In this trend of upgrading to multicore ECUs, how to reuse the previous software generations and
 configurations becomes a major concern of automotive suppliers and manufacturers, as property
 changes can be costly involving many different departments and companies.
-2 of 3
+
+
 
 
 ## Use it
